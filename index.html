@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="ui.css">
+</head>
+<body>
+
+    <div>
+        <div>
+            <input id="weight" placeholder="Váha">
+            <input id="height" placeholder="Výška">
+            <br>
+            <button onclick="calcBMI()">Vypočítej</button>
+            <br>
+            <h1 id="result"></h1>
+            <h4>Pokračovat?<input type="checkbox" id="check"></h4>
+        </div>
+        <div>
+            <button onclick="startSem()">Zapnout Semafor</button>
+            <br>
+            <h1 id="color"></h1>
+            <div style="width: 150px; height: auto; margin-left: 20px; border-radius: 50px; background-color: black; display: flex; justify-items: center;">
+                <ul style="list-style-type: none; padding: 0; margin: auto; margin-top:10px; margin-bottom: 10px;">
+                <div style="width: 100px; height: 100px; background-color: white; border-radius: 100%;" id="semaforr"></div>
+                <div style="width: 100px; height: 100px; background-color: white; border-radius: 100%; margin-top: 10px; margin-bottom: 10px;" id="semaforo"></div>
+                <div style="width: 100px; height: 100px; background-color: white; border-radius: 100%;" id="semaforg"></div>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
